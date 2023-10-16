@@ -1,5 +1,5 @@
-apiVersion: argoproj/v1alpha1
-kind: Application
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 images:
 - name: 267068783124.dkr.ecr.ap-southeast-1.amazonaws.com/frontend
   newTag: "2"
